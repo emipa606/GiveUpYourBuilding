@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GiveUpBuilding>放弃</GiveUpBuilding>
+  <GiveUpBuildingDesc>放弃建筑物的所有权,这将使你无法使用它们的绝大多数功能,但敌人也不会攻击它们.</GiveUpBuildingDesc>
+  <MessageNoCanGiveUpBuilding>请选择属于你的建筑物.</MessageNoCanGiveUpBuilding>
+</LanguageData>

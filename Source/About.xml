@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+  <name>Give up your building</name>
+  <author>LingLuo</author>
+  <packageId>LingLuo.GUYB</packageId>
+  <supportedVersions>
+    <li>1.2</li>
+    <li>1.1</li>
+    <li>1.0</li>
+  </supportedVersions>
+  <description>Give up your buildings so that enemies won't attack them</description>
+</ModMetaData>
