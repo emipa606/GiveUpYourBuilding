@@ -4,6 +4,7 @@
     <operations>
       <li Class="PatchOperationInsert">
         <xpath>Defs/DesignationCategoryDef[defName="Orders"]/specialDesignatorClasses/li[text()="Designator_Claim"]</xpath>
+        <order>Append</order>
         <value>
           <li>ZeroTech.Designator_GiveUpBuilding</li>
         </value>

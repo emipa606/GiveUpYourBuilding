@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GiveUpBuilding>Отказаться</GiveUpBuilding>
+  <GiveUpBuildingDesc>Отказ от права собственности на постройки помешает вам использовать большинство их возможностей, но враг не будет нападать на них.</GiveUpBuildingDesc>
+  <MessageNoCanGiveUpBuilding>Пожалуйста, выберите принадлежащую вам постройку.</MessageNoCanGiveUpBuilding>
+</LanguageData>
