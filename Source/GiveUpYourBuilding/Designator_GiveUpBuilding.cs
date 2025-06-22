@@ -19,7 +19,7 @@ public class Designator_GiveUpBuilding : Designator
         hotKey = KeyBindingDefOf.Misc1;
     }
 
-    public override int DraggableDimensions => 2;
+    public override DrawStyleCategoryDef DrawStyleCategory => DrawStyleCategoryDefOf.Orders;
 
     public override AcceptanceReport CanDesignateCell(IntVec3 c)
     {
