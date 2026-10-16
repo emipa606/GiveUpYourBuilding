@@ -21,19 +21,19 @@ public class Designator_GiveUpBuilding : Designator
 
     public override DrawStyleCategoryDef DrawStyleCategory => DrawStyleCategoryDefOf.Orders;
 
-    public override AcceptanceReport CanDesignateCell(IntVec3 c)
+    public override AcceptanceReport CanDesignateCell(IntVec3 loc)
     {
-        if (!c.InBounds(Map))
+        if (!loc.InBounds(Map))
         {
             return false;
         }
 
-        if (c.Fogged(Map))
+        if (loc.Fogged(Map))
         {
             return false;
         }
 
-        if (!(from t in c.GetThingList(Map)
+        if (!(from t in loc.GetThingList(Map)
                 where CanDesignateThing(t).Accepted
                 select t).Any())
         {
